@@ -1,0 +1,6 @@
+parameter,Value
+iterations,1000
+trials,10
+ts_validation,True
+country,de
+cust,mars-pne
