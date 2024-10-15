@@ -2,6 +2,8 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import csv
+import model_display
+
 
 # Customer Selection Dropdown
 if 'cust' not in st.session_state:
@@ -291,8 +293,10 @@ elif st.session_state['page'] == 'hyperparameter_adjustment':
 
 elif st.session_state['page'] == 'model_run':
     # Model Run Page
+    
     st.title("MetaRobynMMM - Model Run")
-    st.write("This page will contain the logic to run the model based on the configured hyperparameters and uploaded data.")
+    
+    model_display.run_model_display()  # Call the function from model_display.py
 
     # Navigation Buttons
     if st.button("Back"):

@@ -1,0 +1,63 @@
+{
+    "model": "3_109_1",
+    "date_range": [
+        "2024-01-01",
+        "2024-03-31"
+    ],
+    "total_budget": 7000000,
+    "channel_constraints": {
+        "dsp_recruit_cost": {
+            "lower_bound": 0.5,
+            "upper_bound": 1.5
+        },
+        "dsp_conversion_cost": {
+            "lower_bound": 0.5,
+            "upper_bound": 1.5
+        },
+        "dsp_awareness_cost": {
+            "lower_bound": 0.5,
+            "upper_bound": 1.5
+        },
+        "sd_recruit_cost": {
+            "lower_bound": 0.5,
+            "upper_bound": 1.5
+        },
+        "sp_auto_cost": {
+            "lower_bound": 0.5,
+            "upper_bound": 1.5
+        },
+        "sb_defend_cost": {
+            "lower_bound": 0.5,
+            "upper_bound": 1.5
+        },
+        "sp_recruit_cost": {
+            "lower_bound": 0.5,
+            "upper_bound": 1.5
+        },
+        "sp_attack_cost": {
+            "lower_bound": 0.5,
+            "upper_bound": 1.5
+        },
+        "sp_defend_cost": {
+            "lower_bound": 0.5,
+            "upper_bound": 1.5
+        },
+        "sb_recruit_cost": {
+            "lower_bound": 0.5,
+            "upper_bound": 1.5
+        },
+        "sd_defend_cost": {
+            "lower_bound": 0.5,
+            "upper_bound": 1.5
+        },
+        "sb_attack_cost": {
+            "lower_bound": 0.5,
+            "upper_bound": 1.5
+        },
+        "sd_attack_cost": {
+            "lower_bound": 0.5,
+            "upper_bound": 1.5
+        }
+    },
+    "export": true
+}

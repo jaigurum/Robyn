@@ -1,6 +1,6 @@
 parameter,Value
 iterations,1000
 trials,10
-ts_validation,True
+ts_validation,False
 country,de
 cust,mars-pne
