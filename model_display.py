@@ -135,6 +135,7 @@ def run_model_display():
 
                         # Directly show budget allocation parameters if model is selected
                         if st.session_state.selected_model == selected_model_run.replace('.png', ''):
+                            st.header("Budget Allocator using selected Model")
                             st.subheader("Channel Constraints")
                             channel_constraints = {}
                             channels = [
